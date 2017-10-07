@@ -40,7 +40,7 @@ setup(
         'License :: OSI Approved :: MIT License'
     ],
     install_requires=[
-        'gevent-websocket', 'redis', 'graphql-core', 'promise<=1.0.1', 'future'
+        'gevent-websocket', 'redis', 'graphql-core', 'promise', 'future'
     ],
     test_suite='pytest',
     tests_require=tests_dep,
